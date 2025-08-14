@@ -8010,7 +8010,7 @@
 			)
 		)
 		(property "Value" "430450619"
-			(at 8.636 -17.018 0)
+			(at 8.89 -22.606 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8028,7 +8028,7 @@
 			)
 		)
 		(property "Datasheet" "430450619"
-			(at 8.636 -18.796 0)
+			(at 8.89 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,7 +8075,7 @@
 		(symbol "430450619_1_1"
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -15.24)
+					(xy 5.08 2.54) (xy 5.08 -20.32)
 				)
 				(stroke
 					(width 0.127)
@@ -8087,7 +8087,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -15.24) (xy 12.7 -15.24)
+					(xy 5.08 -20.32) (xy 12.7 -20.32)
 				)
 				(stroke
 					(width 0.127)
@@ -8327,7 +8327,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -15.24) (xy 12.7 2.54)
+					(xy 12.7 -20.32) (xy 12.7 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -8438,6 +8438,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -15.24 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -17.78 0)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11774,7 +11810,7 @@
 			)
 		)
 		(property "Value" "B3B-PH-SM4-TBLFSN"
-			(at 7.874 -8.89 0)
+			(at 9.144 -14.478 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11792,7 +11828,7 @@
 			)
 		)
 		(property "Datasheet" "B3B-PH-SM4-TBLFSN"
-			(at 9.398 -11.43 0)
+			(at 9.906 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11875,7 @@
 		(symbol "B3B-PH-SM4-TBLFSN_1_1"
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -7.62)
+					(xy 5.08 2.54) (xy 5.08 -12.7)
 				)
 				(stroke
 					(width 0.127)
@@ -11851,7 +11887,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 12.7 -7.62)
+					(xy 5.08 -12.7) (xy 12.7 -12.7)
 				)
 				(stroke
 					(width 0.127)
@@ -11983,7 +12019,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -7.62) (xy 12.7 2.54)
+					(xy 12.7 -12.7) (xy 12.7 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -12040,6 +12076,42 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -33630,34 +33702,16 @@
 		)
 		(symbol "USBC-Vert-2047110001_1_1"
 			(pin no_connect line
-				(at 13.97 -35.56 90)
-				(length 2.54)
-				(name "S_1"
+				(at 13.97 -38.1 90)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 16.51 -35.56 90)
-				(length 2.54)
-				(name "S_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "S_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -33666,34 +33720,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 19.05 -35.56 90)
-				(length 2.54)
-				(name "S_3"
+				(at 16.51 -38.1 90)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 21.59 -35.56 90)
-				(length 2.54)
-				(name "S_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "S_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -33702,16 +33738,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 24.13 -35.56 90)
-				(length 2.54)
-				(name "S_5"
+				(at 19.05 -38.1 90)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "S_3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -33720,16 +33756,52 @@
 				)
 			)
 			(pin no_connect line
-				(at 26.67 -35.56 90)
-				(length 2.54)
-				(name "S_6"
+				(at 21.59 -38.1 90)
+				(length 5.08)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "S_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 24.13 -38.1 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 26.67 -38.1 90)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S_6"
 					(effects
 						(font
 							(size 1.27 1.27)

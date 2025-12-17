@@ -1,0 +1,78 @@
+(footprint "InsulationDisplamentConnector-70-9177-001-591-006"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5707b30-3810-43aa-a85a-bfbe42bf2de3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "InsulationDisplamentConnector-70-9177-001-591-006"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "656505ae-20c4-4ba0-b1e9-144fad617b82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2b598a1-2176-450e-b076-a2a6a7553645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9b1406c-d54e-4b48-b253-3ea4b6908a04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d72a1e4c-f3f2-48a4-8c3f-dbb52198f27a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 8.5 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "2c710348-d63d-49f6-b969-b85066f3b1c2")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,78 @@
+(footprint "BatteryTabPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2 -7.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3411f61d-78e0-4265-9db0-993545e84ebf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BatteryPad"
+		(at 3.4 -7.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c27e4d8e-6031-4587-b9d1-ce032e2a01fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a474de7-167d-40e8-83c0-1a47081c191c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8195b050-03c4-4d26-beba-531d09bbb7e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.8 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e05670d6-3f49-4e3f-a584-9492fbe4a84e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 8 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "25b322e1-61a8-40e9-b0c0-bde2d0e9280d")
+	)
+	(embedded_fonts no)
+)

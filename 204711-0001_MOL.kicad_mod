@@ -52,6 +52,8 @@
 			)
 		)
 	)
+	(clearance 0.1)
+	(zone_connect 1)
 	(attr smd)
 	(fp_line
 		(start -5.1943 -2.5273)
@@ -454,7 +456,7 @@
 		(uuid "f78c8cc8-5772-47e0-a092-f56151cb26b2")
 	)
 	(fp_text user "*"
-		(at -5.29 -0.7553 0)
+		(at -5.8 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "a96c3571-b731-4a84-9a47-3d9b0af94993")
 		(effects
@@ -465,7 +467,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -5.29 -0.7553 0)
+		(at -5.8 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ae438327-9da6-47a1-8229-0511ad7d837b")
@@ -489,7 +491,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -5.29 -0.7553 0)
+		(at -5.8 -1.6 0)
 		(layer "F.Fab")
 		(uuid "9cac8209-733b-4d37-8d06-9a7ba8941e38")
 		(effects
@@ -500,7 +502,7 @@
 		)
 	)
 	(fp_text user "*"
-		(at -5.29 -0.7553 0)
+		(at -5.8 -1.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b308c2fe-4e9a-4493-82d1-42b2085008dc")
